@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Debug artifacts
-*.png
 *.jpg.bak
 .playwright-mcp/
 
