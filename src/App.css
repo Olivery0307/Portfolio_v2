@@ -279,6 +279,25 @@ main {
   line-height: 1.6;
 }
 
+.about__resume-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: -1.25rem;
+  padding: 0.55rem 1.25rem;
+  border: 1.5px solid var(--ink-dark);
+  color: var(--ink-dark);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.about__resume-btn:hover {
+  background: var(--ink-dark);
+  color: var(--bg);
+}
+
 /* ── Experience ──────────────────────────────────────────────── */
 .exp__list {
   display: flex;

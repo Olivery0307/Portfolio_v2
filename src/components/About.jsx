@@ -9,9 +9,9 @@ export default function About() {
     <section id="about" className="section about-hero">
       <div className="about-hero__top">
         <p className="hero__eyebrow">Hi, I'm</p>
-        <h1 className="hero__name">Oliver Yang</h1>
+        <h1 className="hero__name">Oliver(Chung-Yeh) Yang</h1>
         <p className="hero__tagline">
-          Data Science · Machine Learning · AI Foward Deployment
+          Data Science · Machine Learning · AI Foward Deployed Engineering
         </p>
       </div>
 
@@ -44,6 +44,15 @@ export default function About() {
               </div>
             ))}
           </div>
+
+          <a
+            href="/docs/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="about__resume-btn"
+          >
+            View Resume ↗
+          </a>
         </div>
 
         <div className="about__photo">

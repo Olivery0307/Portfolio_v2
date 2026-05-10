@@ -8,7 +8,7 @@ const PROJECTS = [
     img: '/images/deepfake_xai.png',
     desc: 'A production-ready deepfake detection system combining ResNet, EfficientNet, and Vision Transformer with Grad-CAM and Attention Rollout for model interpretability, plus Gemini API integration for forensic reporting.',
     github: 'https://github.com/Olivery0307/XAI-in-Deepfake-images-recognition',
-    paper: '/paper/deepfake_xai_report.pdf',
+    paper: '/docs/deepfake_xai_report.pdf',
   },
   {
     title: 'Intelliview: AI-Powered Interview Coaching',
@@ -16,7 +16,7 @@ const PROJECTS = [
     img: '/images/intelliview.png',
     desc: 'An AI interview coaching system combining LLM-powered question generation, RAG-based resume analysis, and multimodal evaluation with fine-tuned embeddings achieving 69% Hit@10 retrieval accuracy.',
     github: 'https://github.com/EdChang716/Intelliview-AML_project',
-    paper: '/paper/Intelliview_report.pdf',
+    paper: '/docs/Intelliview_report.pdf',
   },
   {
     title: 'YouBike Station Status Prediction',
