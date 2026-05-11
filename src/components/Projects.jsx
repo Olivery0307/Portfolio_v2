@@ -1,12 +1,28 @@
 import { useState } from 'react'
 
 const PROJECTS = [
-  // Page 1 — flagship
+  // Page 1
+  {
+    title: 'Voyager: An Customizable Travel Itinerary Planner',
+    tags: ['OpenAI SDK', 'Tool Calling', 'Multi-Agent', 'Prompt Engineering'],
+    img: '/images/Voyager.png',
+    desc: 'A production-ready deepfake detection system combining ResNet, EfficientNet, and Vision Transformer with Grad-CAM and Attention Rollout for model interpretability, plus Gemini API integration for forensic reporting.',
+    github: 'https://github.com/Olivery0307/XAI-in-Deepfake-images-recognition',
+    paper: '/docs/deepfake_xai_report.pdf',
+  },
+  {
+    title: 'Text-to-SQL Data Integelligence Agent with Langraph',
+    tags: ['OpenAI SDK', 'Tool Calling', 'Multi-Agent', 'Prompt Engineering'],
+    img: '/images/text2sql.png',
+    desc: 'A production-level text-to-SQL agent built with Langraph, utilizing LangGraph for natural language understanding and tool calling to interact with databases, enabling seamless data querying through conversational interfaces.',
+    github: 'https://github.com/Olivery0307/XAI-in-Deepfake-images-recognition',
+    paper: '/docs/deepfake_xai_report.pdf',
+  },
   {
     title: 'Deepfake Detection with Explainable AI',
     tags: ['Python', 'PyTorch', 'Deep Learning', 'XAI'],
     img: '/images/deepfake_xai.png',
-    desc: 'A production-ready deepfake detection system combining ResNet, EfficientNet, and Vision Transformer with Grad-CAM and Attention Rollout for model interpretability, plus Gemini API integration for forensic reporting.',
+    desc: 'A deepfake detection system combining ResNet, EfficientNet, and Vision Transformer with Grad-CAM and Attention Rollout for model interpretability, plus Gemini API integration for forensic reporting.',
     github: 'https://github.com/Olivery0307/XAI-in-Deepfake-images-recognition',
     paper: '/docs/deepfake_xai_report.pdf',
   },
@@ -18,6 +34,7 @@ const PROJECTS = [
     github: 'https://github.com/EdChang716/Intelliview-AML_project',
     paper: '/docs/Intelliview_report.pdf',
   },
+  // Page 2
   {
     title: 'YouBike Station Status Prediction',
     tags: ['Python', 'AWS', 'Docker', 'MLOps'],
@@ -33,7 +50,6 @@ const PROJECTS = [
     desc: 'A simulation project evaluating operational policies for the Columbia University Night Shuttle service, comparing Door-to-Door vs Corner-to-Corner vs a proposed Hybrid Policy for efficiency and safety.',
     github: 'https://github.com/Olivery0307/CU-Night-Shuttle-Hybrid-Simulation',
   },
-  // Page 2
   {
     title: 'VQA Verification with DNN Fusion Model',
     tags: ['Python', 'PyTorch', 'Deep Learning'],
@@ -48,6 +64,7 @@ const PROJECTS = [
     desc: 'A research project combining topic modeling with LLMs and multi-modal LLMs to analyze artworks and capture trends across unsupervised clusters.',
     github: 'https://github.com/Olivery0307/Artwork_Topic_Modeling',
   },
+  // Page 3
   {
     title: 'Psychologist Chatbot with LLM',
     tags: ['Python', 'LLM', 'Prompt Engineering'],
@@ -62,7 +79,6 @@ const PROJECTS = [
     desc: 'An internship project automating the process of cleansing, analyzing, visualizing, and reporting monitored air quality data utilizing multiple Python libraries.',
     github: 'https://github.com/Olivery0307/Reset_Air',
   },
-  // Page 3
   {
     title: 'Reset Embodied — Scorecard Automation',
     tags: ['Python', 'Pandas', 'python-pptx', 'Data Reporting'],
@@ -76,20 +92,6 @@ const PROJECTS = [
     img: '/images/homelessness.jpeg',
     desc: 'Analyzing people who share housing due to economic hardship using SQL queries and interactive Tableau dashboards to surface trends in doubled-up homelessness.',
     github: 'https://github.com/Olivery0307/Double_up_homelessness',
-  },
-  {
-    title: 'COVID-19 Analysis with Azure and Power BI',
-    tags: ['SQL', 'Power BI', 'Microsoft Azure'],
-    img: '/images/Covid.jpeg',
-    desc: 'A group project analyzing COVID-19 trends including cases, deaths, and recovery changes by date and country with comprehensive data engineering tasks.',
-    github: 'https://github.com/Olivery0307/Covid-Data-Project',
-  },
-  {
-    title: 'Ski Ticket Price Analysis',
-    tags: ['Python', 'Pandas', 'Scikit-learn', 'Machine Learning'],
-    img: '/images/Ski Resort.jpeg',
-    desc: 'A comprehensive group project analyzing factors impacting European ski resort ticket prices, providing advice for tourists and pricing strategies for resorts.',
-    github: 'https://drive.google.com/drive/folders/1nor9xZl85bnwGqzyjHz3Fmmy9uDbtnEM?usp=sharing',
   },
 ]
 

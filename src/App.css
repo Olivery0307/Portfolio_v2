@@ -424,7 +424,7 @@ main {
 
 .project__img-wrap {
   width: 100%;
-  aspect-ratio: 16/10;
+  height: 250px;
   overflow: hidden;
   margin-bottom: 20px;
   background: var(--border-solid);
